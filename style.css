@@ -1,26 +1,123 @@
-*{margin:0;padding:0;outline:0}
-body{font-family:arial;font-size:14px,line-height:18px;color:#00;}
-.templete{width:960px;margin:0 auto;}
-.clear{overflow:hidden;}
-.headersection{height:85px;background:blue;}
-.headersection h2{
-	font-size:40px;
-	padding-top:30px;
-	text-align:center;
+body{
+	font-family: cursive;
 }
-.navsection{height:85px;background:gray;}
-.navsection p{
+
+/*header styling*/
+#main_header{
+	width: 100%;
+	height:15%;
+	background:#696969;
+
+	float: left;
+	margin-top: -8px;
+}
+#logo{
+	/**/
+	width:250px;
+	/*width:30%;*/
+
+	/**/
+	margin-top: 10px;
+	float: left;
+} 
+#ist{
+	color: white;
+	font-size: 45px;
+	font-weight: bold;
+	margin-left: 15px;
+	font-family: cursive;
+}
+#iist{
+	color: white;
+	font-size: 35px;
+	font-weight: bold;
+	font-family: cursive;
+}
+/*search box*/
+#search{
+	/**/
+	/*width: 55%;*/
+	width: 650px;
+	/**/
+	float: left;
+	padding:20px;
+	margin-left:50px;
+	margin: 0 auto;
+
+}
+.search_area{
+	/**/
+	/*width: 55%;*/
+	width: 650px;
+	/**/
+	height:50px;
+	background: #fff;
+	border: none;
+	border-radius:10px;
+	float:left;
+	padding-left: 15px;
+}
+.search_btn{
+	width: 100px;
+	height: 50px;
+	border-radius: 10px;
+	color: #fff;
+	background:#CD5C5C;
+	margin-left: -100px;
+}
+#user_manu{
+	/**/
+	width: 300px;
+	/*width: 20%;*/
+	/**/
+	float:right;
+	margin-top:20px;
+	color: white;
 	
-	padding-left:50px;
+}
+#user_manu li{
+	float: left;
+	width:140px;
+	text-align: center;
+	list-style: none;
 	font-size:20px;
-	font-weight:bold;
-	color:#fff;
-	padding-top:5px;
-	}
-.contentsection{background:blue;}
-.maincontent{width:500px;background:blue;float:left;}
-.maincontent p{}
-.slidebar{width:200px;background:blue;float:right;}
-.slidebar p{}
-.footersection{height:50px;background:brown;}
-.footersection p{text-align:center;font-size:30px;}
+	border-left: 1px solid white;
+	
+}
+#color{
+	color:white;
+}
+#user_manu li:hover{
+	font-size:30px;
+	color:#CD5C5C;
+	transition: all .5s ease;
+}
+
+#navBar{
+	width:100%;
+	height:35px;
+	/*background:#696969;*/
+	/*background:#F0FFF0;*/
+	background:#2F4F4F;
+	float: left;
+}
+
+nav{
+	width:1280px;
+	/*margin:0 auto;*/
+	margin-left: 40px;
+	/*border:2px solid white;*/
+}
+nav a{
+	margin-left: 35px;
+	color:white;
+	/*color:black;*/
+	text-decoration: none;
+
+}
+nav a:hover{
+	color:#CD5C5C;
+	/*color:#696969;*/
+	font-size:15px;
+	transition: all .5s ease;
+}
