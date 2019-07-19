@@ -274,6 +274,7 @@ body{
 
 }
 
+
 hr { 
 	margin-left: 15px;
 	margin-right: 15px;
@@ -283,4 +284,52 @@ hr {
  background-color:
  rgb(60,90,180);
   }
+
+  /*footer*/
+#footer{
+	margin-top: 100px;
+	width: 100%;
+	height:auto;
+	/*background:#696969;*/
+	float:left;
+}
+.footer_sub{
+	width:33.33%;
+	float: left;
+	margin-left: 1px;
+	text-align: center;
+}
+.footer_sub h2{
+	font-weight: bold;
+}
+.footer_sub a{
+	color:black;
+}
+.footer_sub2{
+	width:30%;
+	float: left;
+	font-size: 30px;
+	text-align: center;
+
+}
+.footer_sub2 h2{
+	
+	font-weight: bold;
+	margin-bottom: 20px;
+
+}
+.footer_sub2 ul li{
+	
+	list-style: none;
+
+}
+
+.footer_sub3{
+	width:30%;
+	float: left;
+	text-align: center;	
+}
+.footer_sub3 h2{
+	font-weight: bold;
+	margin-bottom: 20px;
  
